@@ -1,3 +1,3 @@
 # LeetCode
-# Directory of leetcode questions completed by yours truly. 
-# Sorted by language. File name corresponds to the question number, the specific prompt can be found in a comment at the top of each implementation.
+
+![Tests](https://github.com/Nicolas-Mich3l/LeetCode/actions/workflows/tests.yml/badge.svg)
