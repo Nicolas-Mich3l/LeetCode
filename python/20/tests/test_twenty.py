@@ -1,4 +1,4 @@
-from twenty import Solution
+from isValidParens.twenty import Solution
 
 def test_Matching():
     implementation = Solution()
