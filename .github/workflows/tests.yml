@@ -28,6 +28,8 @@ jobs:
         python -m pip install pytest
         cd python/20
         python -m pip install .
+        cd ../53
+        python -m pip install .
     - name: Test with pytest
       run: |
         pytest
