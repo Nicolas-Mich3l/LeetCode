@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "leetcode215_ndam"
+version = "0.0.1"
+authors = [
+  { name="Nicolas Michel", email="nicolas.d.michel@icloud.com" },
+]
+description = "Implementation of leetcode53" 
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+
+
+[tool.pytest.ini_options]
+testpaths = [
+    "tests",
+]
