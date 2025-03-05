@@ -34,6 +34,8 @@ jobs:
         python -m pip install .
         cd ../215
         python -m pip install .
+        cd ../373
+        python -m pip install .
     - name: Test with pytest
       run: |
         cd python/20
@@ -43,4 +45,6 @@ jobs:
         cd ../136
         pytest
         cd ../215
+        pytest
+        cd ../373
         pytest
